@@ -1,0 +1,60 @@
+
+
+
+@media screen and (max-width:650px) {
+   
+    .container{
+        flex-direction: column-reverse;
+    }
+    .con-1{
+        padding-top: 50px;
+    }
+    .left{
+        width: 70%;
+        text-align: center;
+    }
+    .con-2 > img{
+        height: 300px;
+        width: 100vw;
+
+    }
+    .con-2 > .deskimg{
+        display: none;
+    }
+    .con-2 > .mimg{
+        display: block;
+    }
+    .logo-mobile{
+        display: block;
+        max-width: 200px;
+    }
+    .logo{
+        display: none;
+    }
+   
+}
+
+@media screen and (max-width: 375px){
+    .logo-mobile{
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
